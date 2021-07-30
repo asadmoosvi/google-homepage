@@ -14,14 +14,55 @@
           <li><a class="nav__link" href="#">Images</a></li>
           <li>
             <a class="nav__link nav__link_icon" href="#"
-              ><img class="nav__apps" src="/src/assets/icons/apps.svg" alt="Apps"
+              ><img
+                class="nav__apps"
+                src="/src/assets/icons/apps.svg"
+                alt="Apps"
             /></a>
           </li>
-          <li><a class="nav__link nav__link_icon" href="#">
-              <img class="nav__profile" src="https://picsum.photos/200" alt="Profile Picture">
-            </a></li>
+          <li>
+            <a class="nav__link nav__link_icon" href="#">
+              <img
+                class="nav__profile"
+                src="https://picsum.photos/200"
+                alt="Profile Picture"
+              />
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <main>
+      <div class="search">
+        <div class="search__image">
+          <img src="/src/assets/google.png" alt="Google Logo" />
+        </div>
+
+        <form action="" class="search__form">
+          <div class="search__input-box">
+            <div class="search__mag-icon">
+              <img src="/src/assets/icons/search.svg" alt="Search Icon" />
+            </div>
+            <input class="search__input" type="text" name="q" id="q" />
+            <div class="search__mic-icon">
+              <img src="/src/assets/icons/mic.svg" alt="Microphone Icon" />
+            </div>
+          </div>
+          <div class="search__buttons">
+            <button type="submit" class="search__button">Google Search</button>
+            <button type="button" class="search__button">I'm Feeling Lucky</button>
+          </div>
+        </form>
+
+        <div class="search__languages">
+          <p>
+            Google offered in: <a href="#" class="search__language">Spanish</a>
+            <a href="#" class="search__language">French</a>
+            <a href="#" class="search__language">German</a>
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
