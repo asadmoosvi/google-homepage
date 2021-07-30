@@ -136,3 +136,21 @@ img {
 a.search__language {
   color: #1a0dab;
 }
+
+/* footer section */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+}
+
+.footer__links {
+  display: flex;
+  gap: 2em;
+}
