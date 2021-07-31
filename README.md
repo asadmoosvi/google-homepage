@@ -11,4 +11,8 @@ course of The Odin Project](https://www.theodinproject.com/paths/foundations/cou
 
 ![final result of the google search page clone](./src/assets/result.png)
 
-**Note**: This website is completely broken on mobile and not responsive at all.
+## Notes
+- The search button actually makes a Google Search
+- The "I'm Feeling Lucky" button animates the Google logo
+
+**Warning**: This website is completely broken on mobile and not responsive at all.
